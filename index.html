@@ -1,0 +1,2353 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>LAMIS</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
+
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&family=Red+Rose:wght@600;700&display=swap"
+        rel="stylesheet">
+
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Spinner Start -->
+    <div id="spinner"
+        class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+        <div class="spinner-border text-primary" role="status" style="width: 3rem; height: 3rem;"></div>
+    </div>
+    <!-- Spinner End -->
+
+
+    <!-- Brand Start -->
+    <div class="container-fluid text-white pt-4 pb-5 d-none d-lg-flex" style="background-color: #448AFF;">
+        <div class="container pb-2">
+            <div class="d-flex align-items-center justify-content-between">
+                <div class="d-flex">
+                    <div class="ms-3">
+                        <img src="./img/Picture0.png" alt="" style="max-width: 150px;">
+                    </div>
+                </div>
+                <a href="index.html" class="h1 text-white mb-0">LA<span class="text-dark">MIS</span> Laboratory</a>
+                <div class="d-flex">
+                    <i class="bi bi-envelope fs-2"></i>
+                    <div class="ms-3">
+                        <h5 class="text-white mb-0">Mail Now</h5>
+                        <span>labo.lamis@univ-tebessa.dz</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Brand End -->
+
+
+    <!-- Navbar Start -->
+    <div class="container-fluid sticky-top">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-light bg-white py-lg-0 px-lg-3">
+                <a href="index.html" class="navbar-brand d-lg-none">
+                    <h1 class="text-primary m-0">LA<span class="text-dark">MIS</span></h1>
+                </a>
+                <button type="button" class="navbar-toggler me-0" data-bs-toggle="collapse"
+                    data-bs-target="#navbarCollapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <div class="navbar-nav">
+                        <a href="index.html" class="nav-item nav-link active">Home</a>
+                        <a href="about.html" class="nav-item nav-link">About</a>
+                        <div class="nav-item dropdown">
+                            <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Teams & People</a>
+                            <div class="dropdown-menu bg-light m-0">
+                                <a href="team1.html" class="dropdown-item">Engineering of Information and Imaging
+                                    Systems</a>
+                                <a href="team2.html" class="dropdown-item">Distributed and Intelligent Systems</a>
+                                <a href="team3.html" class="dropdown-item">Analyse and Applied Mathematics </a>
+                                <a href="team4.html" class="dropdown-item">Dynamic, Elliptical and Chaotic
+                                    Systems</a>
+                            </div>
+                        </div>
+                        <div class="nav-item dropdown">
+                            <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Research</a>
+                            <div class="dropdown-menu bg-light m-0">
+                                <a href="research.html" class="dropdown-item">Current Projects</a>
+                                <a href="pastProjects.html" class="dropdown-item">Past Projects</a>
+                                <div class="dropdown-item thesis-dropdown p-0">
+                                    <a href="#" class="nav-link">Defended Thesis <i class="bi bi-chevron-right"></i></a>
+                                    <div class="thesis-submenu bg-light">
+                                        <a href="thesisMath.html" class="dropdown-item">Mathematics</a>
+                                        <a href="thesisInfo.html" class="dropdown-item">Computer Science</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <a href="resources.html" class="nav-item nav-link">Resources</a>
+                        <a href="awards.html" class="nav-item nav-link">Awards</a>
+                        <a href="partnership.html" class="nav-item nav-link">Partnership</a>
+                        <a href="contact.html" class="nav-item nav-link">Contact</a>
+                    </div>
+                    <div class="ms-auto d-none d-lg-flex">
+                        <a class="btn btn-sm-square btn-primary ms-2" href=""><i class="fab fa-facebook-f"></i></a>
+                        <a class="btn btn-sm-square btn-primary ms-2" href=""><i class="fab fa-twitter"></i></a>
+                        <a class="btn btn-sm-square btn-primary ms-2" href=""><i class="fab fa-linkedin-in"></i></a>
+                        <a class="btn btn-sm-square btn-primary ms-2" href=""><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </div>
+    <!-- Navbar End -->
+
+
+    <!-- Carousel Start -->
+    <div class="container-fluid header-carousel px-0 mb-5">
+        <div id="header-carousel" class="carousel slide carousel-fade" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img class="w-100" src="img/Picture5.jpg" alt="Image">
+                    <div class="carousel-caption">
+                        <div class="container">
+                            <div class="row justify-content-start">
+                                <div class="col-lg-7 text-start">
+                                    <h1 class="display-6 text-white animated slideInRight mb-3">Diversity drives
+                                        innovation.</h1>
+                                    <p class="mb-5 animated slideInRight" style="font-size: large;">At the LAMIS lab,
+                                        we have a strong team with diverse expertise, talents, and interests. LAMIS is a
+                                        vibrant community of mathematicians and computer scientists</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img class="w-100" src="les photos expo et wait/_MG_5033.JPG" alt="Image">
+                    <div class="carousel-caption">
+                        <div class="container">
+                            <div class="row justify-content-end">
+                                <div class="col-lg-7 text-end">
+                                    <h1 class="display-6 text-white animated slideInLeft mb-3">Harnessing Diverse
+                                        Expertise for Innovative Solutions</h1>
+                                    <p class="mb-5 animated slideInLeft" style="font-size: large;">Several diverse
+                                        projects are currently in progress across various fields, including Information
+                                        Systems and Security, Medical Imaging Analysis, Dynamical Systems and Chaos, and
+                                        Pattern Recognition.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img class="w-100" src="les photos expo et wait/_MG_5084.JPG" alt="Image">
+                    <div class="carousel-caption">
+                        <div class="container">
+                            <div class="row justify-content-start">
+                                <div class="col-lg-7 text-start">
+                                    <h1 class="display-6 text-white animated slideInLeft mb-3">Alone we can do so
+                                        little, together we can do so much.</h1>
+                                    <p class="mb-5 animated slideInLeft" style="font-size: large;">We thrive on
+                                        mutually beneficial partnerships and collaborations that drive innovation and
+                                        new technologies.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#header-carousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#header-carousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </div>
+    <!-- Carousel End -->
+
+
+
+    <!-- news&events Start -->
+    <section class="news-events container my-5">
+        <h2 class="text-center mb-4">News & Events</h2>
+
+        <div class="accordion" id="newsEventsAccordion">
+            <!-- Event -200 -->
+            <div class="accordion-item show-event">
+                <h2 class="accordion-header" id="headingMinus200">
+                    <button class="accordion-button " type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseMinus200" aria-expanded="false" aria-controls="collapseMinus200">
+                        <span class="event-date me-3 px-3">01 DEC 24</span>
+                        Knowledge-sharing meeting with Imam Muhammad bin Saud Islamic University
+                    </button>
+                </h2>
+                <div id="collapseMinus200" class="accordion-collapse collapse show" aria-labelledby="headingMinus200"
+                    data-bs-parent="#newsEventsAccordion">
+                    <div class="accordion-body">
+                        <div class="row">
+                            <div class="col-md-8">
+                                <div id="carouselEventMinus200" class="carousel slide news-events-carousel"
+                                    data-bs-ride="carousel">
+                                    <div class="carousel-inner">
+                                        <div class="carousel-item active">
+                                            <img src="img/saudi1.jpeg" class="d-block w-100"
+                                                alt="Saudi Meeting Image 1">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img src="img/saudi2.jpeg" class="d-block w-100"
+                                                alt="Saudi Meeting Image 2">
+                                        </div>
+                                    </div>
+                                    <button class="carousel-control-prev" type="button"
+                                        data-bs-target="#carouselEventMinus200" data-bs-slide="prev">
+                                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                        <span class="visually-hidden">Previous</span>
+                                    </button>
+                                    <button class="carousel-control-next" type="button"
+                                        data-bs-target="#carouselEventMinus200" data-bs-slide="next">
+                                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                        <span class="visually-hidden">Next</span>
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="col-md-4 pt-3">
+                                <ul>
+                                    <li>
+                                        At the initiative of Dr. Hanane Djellab, knowledge-sharing and coordination
+                                        meeting between members of the LAMIS laboratory, the Signal Processing
+                                        Laboratory, and researchers and representatives from Imam Muhammad bin Saud
+                                        Islamic University in Saudi Arabia.
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Event -18 -->
+            <div class="accordion-item show-event">
+                <h2 class="accordion-header" id="headingMinusEighteen">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseMinusEighteen" aria-expanded="false"
+                        aria-controls="collapseMinusEighteen">
+                        <span class="event-date me-3 px-3">21 NOV 24</span>
+                        Mr. Rami Amira defended his doctoral thesis
+                    </button>
+                </h2>
+                <div id="collapseMinusEighteen" class="accordion-collapse collapse "
+                    aria-labelledby="headingMinusEighteen" data-bs-parent="#newsEventsAccordion">
+                    <div class="accordion-body">
+                        <div class="row">
+                            <div class="col-md-8">
+                                <div id="carouselEventMinusEighteen" class="carousel slide news-events-carousel"
+                                    data-bs-ride="carousel">
+                                    <div class="carousel-inner">
+                                        <div class="carousel-item active">
+                                            <img src="img/ramiAmira.jpeg" class="d-block w-100"
+                                                alt="Rami Amira Thesis Defense">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4 pt-3">
+                                <ul>
+                                    <li>
+                                        Mr. Rami Amira successfully defended his doctoral thesis under the supervision
+                                        of
+                                        Dr. Fareh Hannachi. Congratulations!
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Event -17 -->
+            <div class="accordion-item show-event">
+                <h2 class="accordion-header" id="headingMinusSeventeen">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseMinusSeventeen" aria-expanded="false"
+                        aria-controls="collapseMinusSeventeen">
+                        <span class="event-date me-3 px-3">21 NOV 24</span>
+                        Miss. Douaa Yousfi defended her doctoral thesis
+                    </button>
+                </h2>
+                <div id="collapseMinusSeventeen" class="accordion-collapse collapse"
+                    aria-labelledby="headingMinusSeventeen" data-bs-parent="#newsEventsAccordion">
+                    <div class="accordion-body">
+                        <div class="row">
+                            <div class="col-md-8">
+                                <div id="carouselEventMinusSeventeen" class="carousel slide news-events-carousel"
+                                    data-bs-ride="carousel">
+                                    <div class="carousel-inner">
+                                        <div class="carousel-item active">
+                                            <img src="img/defendedthesis.jpeg" class="d-block w-100"
+                                                alt="Douaa Yousfi Thesis Defense">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4 pt-3">
+                                <ul>
+                                    <li>
+                                        Miss. Douaa Yousfi successfully defended her doctoral thesis under the
+                                        supervision of
+                                        Pr. Gattal Abdeljalil & Dr. Chawki Djeddi. Congratulations!
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Event -16 -->
+            <div class="accordion-item show-event">
+                <h2 class="accordion-header" id="headingMinusSixteen">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseMinusSixteen" aria-expanded="false"
+                        aria-controls="collapseMinusSixteen">
+                        <span class="event-date me-3 px-3">18 NOV 24</span>
+                        Guest Talk: Chaotic Systems and Their Application in Image Encryption
+                    </button>
+                </h2>
+                <div id="collapseMinusSixteen" class="accordion-collapse collapse" aria-labelledby="headingMinusSixteen"
+                    data-bs-parent="#newsEventsAccordion">
+                    <div class="accordion-body">
+                        <div class="row">
+                            <div class="col-md-8">
+                                <div id="carouselEventMinusSixteen" class="carousel slide news-events-carousel"
+                                    data-bs-ride="carousel">
+                                    <div class="carousel-inner">
+                                        <div class="carousel-item active">
+                                            <img src="img/-16.jpeg" class="d-block w-100"
+                                                alt="Yousuf Islam Guest Talk Image 1">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img src="img/-161.jpeg" class="d-block w-100"
+                                                alt="Yousuf Islam Guest Talk Image 2">
+                                        </div>
+                                    </div>
+                                    <button class="carousel-control-prev" type="button"
+                                        data-bs-target="#carouselEventMinusSixteen" data-bs-slide="prev">
+                                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                        <span class="visually-hidden">Previous</span>
+                                    </button>
+                                    <button class="carousel-control-next" type="button"
+                                        data-bs-target="#carouselEventMinusSixteen" data-bs-slide="next">
+                                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                        <span class="visually-hidden">Next</span>
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="col-md-4 pt-3">
+                                <ul>
+                                    <li>
+                                        Yousuf Islam from Central South University, China delivered an insightful
+                                        presentation to laboratory members on chaotic systems and their practical
+                                        applications in image encryption techniques.
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Event -19 -->
+            <div class="accordion-item show-event">
+                <h2 class="accordion-header" id="headingMinusNineteen">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseMinusNineteen" aria-expanded="false"
+                        aria-controls="collapseMinusNineteen">
+                        <span class="event-date me-3 px-3">17 NOV 24</span>
+                        PhD Defense: Miss. Atmania Islah
+                    </button>
+                </h2>
+                <div id="collapseMinusNineteen" class="accordion-collapse collapse"
+                    aria-labelledby="headingMinusNineteen" data-bs-parent="#newsEventsAccordion">
+                    <div class="accordion-body">
+                        <div class="row">
+                            <div class="col-md-8">
+                                <div id="carouselEventMinusNineteen" class="carousel slide news-events-carousel"
+                                    data-bs-ride="carousel">
+                                    <div class="carousel-inner">
+                                        <div class="carousel-item active">
+                                            <img src="img/defendedthesis.jpeg" class="d-block w-100"
+                                                alt="PhD Defense Image">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4 pt-3">
+                                <ul>
+                                    <li>
+                                        Miss. Atmania Islah successfully defended her doctoral thesis under the
+                                        supervision of Dr. Zitouni Saleh. Congratulations!
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Event 0 -->
+            <div class="accordion-item show-event">
+                <h2 class="accordion-header" id="headingMinusFourteen">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseMinusFourteen" aria-expanded="false"
+                        aria-controls="collapseMinusFourteen">
+                        <span class="event-date me-3 px-3">7 NOV 24</span>
+                        National Conference on AI in Healthcare
+                    </button>
+                </h2>
+                <div id="collapseMinusFourteen" class="accordion-collapse collapse"
+                    aria-labelledby="headingMinusFourteen" data-bs-parent="#newsEventsAccordion">
+                    <div class="accordion-body">
+                        <div class="row">
+                            <div class="col-md-8">
+                                <div id="carouselEventMinusFourteen" class="carousel slide news-events-carousel"
+                                    data-bs-ride="carousel">
+                                    <div class="carousel-inner">
+                                        <div class="carousel-item active">
+                                            <img src="img/7th nov (1).jpeg" class="d-block w-100"
+                                                alt="AI Healthcare Conference Image 1">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img src="img/7th nov (2).jpeg" class="d-block w-100"
+                                                alt="AI Healthcare Conference Image 2">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img src="img/7th nov3.jpeg" class="d-block w-100"
+                                                alt="AI Healthcare Conference Image 2">
+                                        </div>
+                                    </div>
+                                    <button class="carousel-control-prev" type="button"
+                                        data-bs-target="#carouselEventMinusFourteen" data-bs-slide="prev">
+                                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                        <span class="visually-hidden">Previous</span>
+                                    </button>
+                                    <button class="carousel-control-next" type="button"
+                                        data-bs-target="#carouselEventMinusFourteen" data-bs-slide="next">
+                                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                        <span class="visually-hidden">Next</span>
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="col-md-4 pt-3">
+                                <ul>
+                                    <li>
+                                        Co-organizing a national conference on the use of AI in healthcare. PhD students
+                                        and research professors from our laboratory participated with contributors from
+                                        the healthcare sector to lead the proceedings of this scientific meeting.
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Event 1 -->
+            <div class="accordion-item show-event">
+                <h2 class="accordion-header" id="headingMinusFifteen">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseMinusFifteen" aria-expanded="false"
+                        aria-controls="collapseMinusFifteen">
+                        <span class="event-date me-3 px-3">5 NOV 24</span>
+                        International Cooperation - Welcoming Yousouf Islam
+                    </button>
+                </h2>
+                <div id="collapseMinusFifteen" class="accordion-collapse collapse" aria-labelledby="headingMinusFifteen"
+                    data-bs-parent="#newsEventsAccordion">
+                    <div class="accordion-body">
+                        <div class="row">
+                            <div class="col-md-8">
+                                <div id="carouselEventMinusFifteen" class="carousel slide news-events-carousel"
+                                    data-bs-ride="carousel">
+                                    <div class="carousel-inner">
+                                        <div class="carousel-item active">
+                                            <img src="img/5th nov.jpeg" class="d-block w-100" alt="Yousouf Islam Visit">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4 pt-3">
+                                <ul>
+                                    <li>
+                                        In the context of international cooperation, our laboratory welcomes Yousouf
+                                        Islam, a student at Central South University in China. With the Vice-Rector of
+                                        the University Pr. Souad Neffar. Yousouf has previously published two renowned
+                                        articles with our doctoral students.
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Event 3 -->
+            <div class="accordion-item show-event">
+                <h2 class="accordion-header" id="headingMinusTwo">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseMinusTwo" aria-expanded="false" aria-controls="collapseMinusTwo">
+                        <span class="event-date me-3 px-3">24 OCT 24</span>
+                        South Korea Training Program
+                    </button>
+                </h2>
+                <div id="collapseMinusTwo" class="accordion-collapse collapse" aria-labelledby="headingMinusTwo"
+                    data-bs-parent="#newsEventsAccordion">
+                    <div class="accordion-body">
+                        <div class="row">
+                            <div class="col-md-8">
+                                <div id="carouselEventMinusTwo" class="carousel slide news-events-carousel"
+                                    data-bs-ride="carousel">
+                                    <div class="carousel-inner">
+                                        <div class="carousel-item active">
+                                            <img src="img/Picture53.jpg" class="d-block w-100"
+                                                alt="South Korea Program Image 1">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img src="img/Picture52.jpg" class="d-block w-100"
+                                                alt="South Korea Program Image 2">
+                                        </div>
+                                    </div>
+                                    <button class="carousel-control-prev" type="button"
+                                        data-bs-target="#carouselEventMinusTwo" data-bs-slide="prev">
+                                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                        <span class="visually-hidden">Previous</span>
+                                    </button>
+                                    <button class="carousel-control-next" type="button"
+                                        data-bs-target="#carouselEventMinusTwo" data-bs-slide="next">
+                                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                        <span class="visually-hidden">Next</span>
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="col-md-4 pt-3">
+                                <ul>
+                                    <li>
+                                        The participation of our colleague Dr. Salima Bourougaa-Tria in the training and
+                                        exchange program in South Korea, aimed at 450 Algerian startups selected from
+                                        among 7,000 as part of a program initiated by the President of the Republic.
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Event 2 -->
+            <div class="accordion-item show-event">
+                <h2 class="accordion-header" id="headingMinusOne">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseMinusOne" aria-expanded="false" aria-controls="collapseMinusOne">
+                        <span class="event-date me-3 px-3">4 OCT 24</span>
+                        PhD Students Evaluation Day
+                    </button>
+                </h2>
+                <div id="collapseMinusOne" class="accordion-collapse collapse" aria-labelledby="headingMinusOne"
+                    data-bs-parent="#newsEventsAccordion">
+                    <div class="accordion-body">
+                        <div class="row">
+                            <div class="col-md-8">
+                                <div id="carouselEventMinusOne" class="carousel slide news-events-carousel"
+                                    data-bs-ride="carousel">
+                                    <div class="carousel-inner">
+                                        <div class="carousel-item active">
+                                            <img src="img/Picture50.jpg" class="d-block w-100"
+                                                alt="PhD Evaluation Day Image 1">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img src="img/Picture51.jpg" class="d-block w-100"
+                                                alt="PhD Evaluation Day Image 2">
+                                        </div>
+                                    </div>
+                                    <button class="carousel-control-prev" type="button"
+                                        data-bs-target="#carouselEventMinusOne" data-bs-slide="prev">
+                                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                        <span class="visually-hidden">Previous</span>
+                                    </button>
+                                    <button class="carousel-control-next" type="button"
+                                        data-bs-target="#carouselEventMinusOne" data-bs-slide="next">
+                                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                        <span class="visually-hidden">Next</span>
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="col-md-4 pt-3">
+                                <ul>
+                                    <li>
+                                        Evaluation day for computer science PhD students to discuss progress and
+                                        challenges, with the presence of supervisors and other laboratory members.
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Event 3 -->
+            <div class="accordion-item show-event">
+                <h2 class="accordion-header" id="headingMinusEleven">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseMinusEleven" aria-expanded="false" aria-controls="collapseMinusEleven">
+                        <span class="event-date me-3 px-3">26 SEP 24</span>
+                        Doctoral Thesis Defense - Hasna Yousfi
+                    </button>
+                </h2>
+                <div id="collapseMinusEleven" class="accordion-collapse collapse" aria-labelledby="headingMinusEleven"
+                    data-bs-parent="#newsEventsAccordion">
+                    <div class="accordion-body">
+                        <div class="row">
+                            <div class="col-md-8">
+                                <div id="carouselEventMinusEleven" class="carousel slide news-events-carousel"
+                                    data-bs-ride="carousel">
+                                    <div class="carousel-inner">
+                                        <div class="carousel-item active">
+                                            <img src="img/defendedthesis.jpeg" class="d-block w-100"
+                                                alt="Hasna Yousfi Thesis Defense">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4 pt-3">
+                                <ul>
+                                    <li>
+                                        Miss Hasna Yousfi has defended her doctoral thesis.
+                                        <br>
+                                        Supervisors: Dr. Gasri Ahlem & Pr. Adel Ouannas.
+                                        <br>
+                                        Congratulations!
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Event 1 -->
+            <div class="accordion-item show-event">
+                <h2 class="accordion-header" id="headingZero">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseZero" aria-expanded="false" aria-controls="collapseZero">
+                        <span class="event-date me-3 px-3">4 AUG 24</span>
+                        NCAI'2023 Special Issue Published
+                    </button>
+                </h2>
+                <div id="collapseZero" class="accordion-collapse collapse" aria-labelledby="headingZero"
+                    data-bs-parent="#newsEventsAccordion">
+                    <div class="accordion-body">
+                        <div class="row">
+                            <div class="col-md-12 pt-3">
+                                <ul>
+                                    <li>
+                                        The special issue dedicated to the NCAI'2023 conference organized by our
+                                        laboratory in the journal ACTA Informatica is published online.
+                                        Editors : Pr. Hakim Bendjenna, Pr. Lawrence Chung, Pr. Abdellah Meraoumia
+                                        <br>
+                                        <a href="https://aip.vse.cz/magno/aip/2024/mn2.php">View Publication</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Event 2 -->
+            <div class="accordion-item show-event">
+                <h2 class="accordion-header" id="headingMinusTen">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseMinusTen" aria-expanded="false" aria-controls="collapseMinusTen">
+                        <span class="event-date me-3 px-3">15 JUL 24</span>
+                        Doctoral Thesis Defense - Touati Hamad Zineb
+                    </button>
+                </h2>
+                <div id="collapseMinusTen" class="accordion-collapse collapse" aria-labelledby="headingMinusTen"
+                    data-bs-parent="#newsEventsAccordion">
+                    <div class="accordion-body">
+                        <div class="row">
+                            <div class="col-md-8">
+                                <div id="carouselEventMinusTen" class="carousel slide news-events-carousel"
+                                    data-bs-ride="carousel">
+                                    <div class="carousel-inner">
+                                        <div class="carousel-item active">
+                                            <img src="img/zaineb.jpeg" class="d-block w-100" alt="Thesis Defense Image">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4 pt-3">
+                                <ul>
+                                    <li>
+                                        Touati Hamad Zineb has defended her doctoral thesis. Supervisors: Pr. Laouar Med
+                                        Ridda and Dr. Issam Bendib. Congratulations!
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Event 4 -->
+            <div class="accordion-item show-event">
+                <h2 class="accordion-header" id="headingMinusThirteen">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseMinusThirteen" aria-expanded="false"
+                        aria-controls="collapseMinusThirteen">
+                        <span class="event-date me-3 px-3">13 JUN 24</span>
+                        Doctoral Thesis Defense - Sami Loucif
+                    </button>
+                </h2>
+                <div id="collapseMinusThirteen" class="accordion-collapse collapse"
+                    aria-labelledby="headingMinusThirteen" data-bs-parent="#newsEventsAccordion">
+                    <div class="accordion-body">
+                        <div class="row">
+                            <div class="col-md-8">
+                                <div id="carouselEventMinusThirteen" class="carousel slide news-events-carousel"
+                                    data-bs-ride="carousel">
+                                    <div class="carousel-inner">
+                                        <div class="carousel-item active">
+                                            <img src="img/defendedthesis.jpeg" class="d-block w-100"
+                                                alt="Thesis Defense Image">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4 pt-3">
+                                <ul>
+                                    <li>
+                                        Mr. Sami Loucif has defended his doctoral thesis. Supervisors: Pr. Guefaifia
+                                        Rafik & Dr. Zitouni Saleh. Congratulations!
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Event 3 -->
+            <div class="accordion-item show-event">
+                <h2 class="accordion-header" id="headingMinusTwelve">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseMinusTwelve" aria-expanded="false" aria-controls="collapseMinusTwelve">
+                        <span class="event-date me-3 px-3">29 MAY 24</span>
+                        Doctoral Thesis Defense - Samet Sarra
+                    </button>
+                </h2>
+                <div id="collapseMinusTwelve" class="accordion-collapse collapse" aria-labelledby="headingMinusTwelve"
+                    data-bs-parent="#newsEventsAccordion">
+                    <div class="accordion-body">
+                        <div class="row">
+                            <div class="col-md-8">
+                                <div id="carouselEventMinusTwelve" class="carousel slide news-events-carousel"
+                                    data-bs-ride="carousel">
+                                    <div class="carousel-inner">
+                                        <div class="carousel-item active">
+                                            <img src="img/defendedthesis.jpeg" class="d-block w-100"
+                                                alt="Thesis Defense Image">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4 pt-3">
+                                <ul>
+                                    <li>
+                                        Miss. Samet Sarra has defended her doctoral thesis. Supervisors: Pr. Laouar Med
+                                        Ridda & Dr. Issam Bendib. Congratulations!
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Event 1 -->
+            <div class="accordion-item show-event">
+                <h2 class="accordion-header" id="headingOne">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                        <span class="event-date me-3 px-3">16 May 24</span>
+                        Evaluation day for computer science PhD students.
+                    </button>
+                </h2>
+                <div id="collapseOne" class="accordion-collapse collapse " aria-labelledby="headingOne"
+                    data-bs-parent="#newsEventsAccordion">
+                    <div class="accordion-body">
+                        <div class="row">
+                            <div class="col-md-8">
+                                <!-- Scoped Carousel for Event 1 -->
+                                <div id="carouselEvent1" class="carousel slide news-events-carousel"
+                                    data-bs-ride="carousel">
+                                    <div class="carousel-inner">
+                                        <div class="carousel-item active">
+                                            <img src="img/Picture2.jpg" class="d-block w-100" alt="Event 1 Image 1">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img src="img/Picture1.jpg" class="d-block w-100" alt="Event 1 Image 2">
+                                        </div>
+                                        <!-- More carousel items -->
+                                    </div>
+                                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselEvent1"
+                                        data-bs-slide="prev">
+                                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                        <span class="visually-hidden">Previous</span>
+                                    </button>
+                                    <button class="carousel-control-next" type="button" data-bs-target="#carouselEvent1"
+                                        data-bs-slide="next">
+                                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                        <span class="visually-hidden">Next</span>
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="col-md-4 pt-3">
+                                <ul>
+                                    <li>
+                                        discuss progress and challenges, with the presence of supervisors and other
+                                        laboratory members.
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Event 2 (Make sure IDs are unique) -->
+            <div class="accordion-item show-event">
+                <h2 class="accordion-header" id="headingTwo">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                        <span class="event-date me-3 px-3">15 FEB 24</span>
+                        Future trends of machine intelligence in science and industry
+                    </button>
+                </h2>
+                <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                    data-bs-parent="#newsEventsAccordion">
+                    <div class="accordion-body">
+                        <div class="row">
+                            <div class="col-md-4 pt-3">
+                                <p>Submission deadline to our special issue titled "Future trends of machine
+                                    intelligence in science and industry: New challenges and opportunities" for the
+                                    selected papers in the NCAI'2023.
+                                    <hr>
+                                    <b>Journal: </b>Acta Informatica Pragensia
+                                    <hr>
+                                    <b>Editors:</b> Pr. Hakim Bendjenna, Pr. Abdallah Meraoumia & Pr. Lawrence Chung
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Event 3 (Make sure IDs are unique) -->
+            <div class="accordion-item hide-event">
+                <h2 class="accordion-header" id="headingThree">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                        <span class="event-date me-3 px-3">19-21 DEC 23</span>
+                        The first edition of the Week of Artificial Intelligence Trends (WAIT'2023).
+                    </button>
+                </h2>
+                <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                    data-bs-parent="#newsEventsAccordion">
+                    <div class="accordion-body">
+                        <div class="row">
+                            <div class="col-md-8">
+                                <!-- Scoped Carousel for Event 2 -->
+                                <div id="carouselEvent3" class="carousel slide news-events-carousel"
+                                    data-bs-ride="carousel">
+                                    <div class="carousel-inner">
+                                        <div class="carousel-item active">
+                                            <img src="img/Picture4.png" class="d-block w-100" alt="Event 2 Image 1">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img src="img/Picture5.jpg" class="d-block w-100" alt="Event 2 Image 2">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img src="img/Picture6.jpg" class="d-block w-100" alt="Event 2 Image 2">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img src="img/Picture7.jpg" class="d-block w-100" alt="Event 2 Image 2">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img src="img/Picture8.jpg" class="d-block w-100" alt="Event 2 Image 2">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img src="img/Picture9.jpg" class="d-block w-100" alt="Event 2 Image 2">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img src="img/Picture10.jpg" class="d-block w-100" alt="Event 2 Image 2">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img src="img/Picture11.jpg" class="d-block w-100" alt="Event 2 Image 2">
+                                        </div>
+                                        <!-- More carousel items -->
+                                    </div>
+                                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselEvent3"
+                                        data-bs-slide="prev">
+                                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                        <span class="visually-hidden">Previous</span>
+                                    </button>
+                                    <button class="carousel-control-next" type="button" data-bs-target="#carouselEvent3"
+                                        data-bs-slide="next">
+                                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                        <span class="visually-hidden">Next</span>
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="col-md-4 pt-3">
+                                <ul>
+                                    <li>A study day on the applications of Artificial Intelligence for Medicine
+                                        (AI4Me'2023) co-organized with the mixed team headed by Pr. Amroune Mohamed,
+                                        December 19, 2023.
+                                        Researchers and medical specialists have shared their knowledge and concerns in
+                                        the field of medical artificial intelligence. Two speakers presented
+                                        communications related to the domain, namely Prof. Christos Davatzikos
+                                        (University of Pennsylvania, USA) and Dr. Chaimaa Aoiche (LAMIS laboratory).
+                                        Doctoral students from the laboratory also presented posters to summarize their
+                                        research work in the field.
+                                    </li>
+                                    <hr>
+                                    <li>A National Conference on Artificial Intelligence: From Theory to Practice
+                                        (NCAI'2023). December 20-21, 2023. Fifty papers in various fields of artificial
+                                        intelligence were presented over two days by participants from several national
+                                        universities, both in-person and online.</li>
+                                    <hr>
+                                    <li>
+                                        The Algerian-Tunisian exhibition for students innovative projects, December
+                                        21, 2023. Almost 40 innovative projects were presented by students from national
+                                        and Tunisian universities in a first edition.
+                                    </li>
+
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Event 4 (Make sure IDs are unique) -->
+            <div class="accordion-item hide-event">
+                <h2 class="accordion-header" id="headingFour">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                        <span class="event-date me-3 px-3">12 DEC 23</span>
+                        The mixed team headed by Pr. Amroune Mohamed: publish in a specialized and highly impactful
+                        journal.
+                    </button>
+                </h2>
+                <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
+                    data-bs-parent="#newsEventsAccordion">
+                    <div class="accordion-body">
+                        <div class="row">
+                            <div class="col-md-8">
+                                <div id="carouselEvent4" class="carousel slide news-events-carousel"
+                                    data-bs-ride="carousel">
+                                    <div class="carousel-inner">
+                                        <div class="carousel-item active">
+                                            <img src="img/amroune.jpeg" class="d-block w-100" alt="Event 4 Image">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4 pt-3">
+                                <ul>
+                                    <li>
+                                        The mixed team headed by Pr. Amroune Mohamed: publish in a specialized and
+                                        highly impactful journal the first Arabic cutting-edge breast database capable
+                                        of employing ML and DL algorithms to detect and classify breast cancer. Compared
+                                        to other digital mammogram databases, the Laboratory of Mathematics, Informatics
+                                        and System (LAMIS) images have better resolution and are in full-field digital
+                                        mammography format. More details in the link:
+                                        <a
+                                            href="https://www.sciencedirect.com/science/article/abs/pii/S1746809423012569">Click
+                                            here</a>
+                                    </li>
+
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Event 5 (Make sure IDs are unique) -->
+            <div class="accordion-item hide-event">
+                <h2 class="accordion-header" id="headingFifth">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseFifth" aria-expanded="false" aria-controls="collapseFifth">
+                        <span class="event-date me-3 px-3">4 DEC 23</span>
+                        Online meeting with Prof. Christos Davatzikos.
+                    </button>
+                </h2>
+                <div id="collapseFifth" class="accordion-collapse collapse" aria-labelledby="headingFifth"
+                    data-bs-parent="#newsEventsAccordion">
+                    <div class="accordion-body">
+                        <div class="row">
+                            <div class="col-md-8">
+                                <div id="carouselEvent3" class="carousel slide news-events-carousel"
+                                    data-bs-ride="carousel">
+                                    <div class="carousel-inner">
+                                        <div class="carousel-item active">
+                                            <img src="img/Picture13.png" class="d-block w-100" alt="Event 2 Image 1">
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div class="col-md-4 pt-3">
+                                <ul>
+                                    <li>
+                                        Online meeting with Prof. Christos Davatzikos (University of Pennsylvania, USA)
+                                        and some doctoral students from the laboratory to present and discuss their
+                                        research work.
+                                    </li>
+
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Event 6 (Make sure IDs are unique) -->
+            <div class="accordion-item hide-event">
+                <h2 class="accordion-header" id="headingSixth">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseSixth" aria-expanded="false" aria-controls="collapseSixth">
+                        <span class="event-date me-3 px-3">6 JUL 23</span>
+                        Online meeting with Pr. Acharya Rajendra.
+                    </button>
+                </h2>
+                <div id="collapseSixth" class="accordion-collapse collapse" aria-labelledby="headingSixth"
+                    data-bs-parent="#newsEventsAccordion">
+                    <div class="accordion-body">
+                        <div class="row">
+                            <div class="col-md-8">
+                                <div id="carouselEvent3" class="carousel slide news-events-carousel"
+                                    data-bs-ride="carousel">
+                                    <div class="carousel-inner">
+                                        <div class="carousel-item active">
+                                            <img src="img/Picture14.png" class="d-block w-100" alt="Event 2 Image 1">
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div class="col-md-4 pt-3">
+                                <ul>
+                                    <li>
+                                        Online meeting with Pr. Acharya Rajendra (University of Southern Queensland,
+                                        Australia) ,and some doctoral students from the laboratory to present and
+                                        discuss their research work.
+                                    </li>
+
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Event 7 (Make sure IDs are unique) -->
+            <div class="accordion-item hide-event">
+                <h2 class="accordion-header" id="headingSeven">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
+                        <span class="event-date me-3 px-3">26 JUN 23</span>
+                        Training day for doctoral students
+                    </button>
+                </h2>
+                <div id="collapseSeven" class="accordion-collapse collapse" aria-labelledby="headingSeven"
+                    data-bs-parent="#newsEventsAccordion">
+                    <div class="accordion-body">
+                        <div class="row">
+                            <div class="col-md-8">
+                                <div id="carouselEvent3" class="carousel slide news-events-carousel"
+                                    data-bs-ride="carousel">
+                                    <div class="carousel-inner">
+                                        <div class="carousel-item active">
+                                            <img src="img/Picture16.jpg" class="d-block w-100" alt="Event 2 Image 1">
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div class="col-md-4 pt-3">
+                                <ul>
+                                    <li>
+                                        Training day for doctoral students in mathematics with the invited professors
+                                        Ghanmi Abdeljabar (Djeddah University, KSA) and Mahfoud Mechergi (Tunis
+                                        University, Tunisia).
+                                    </li>
+
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Event 9 (Make sure IDs are unique) -->
+            <div class="accordion-item hide-event">
+                <h2 class="accordion-header" id="heading9">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapse9" aria-expanded="false" aria-controls="collapse9">
+                        <span class="event-date me-3 px-3">8 JUN 23</span>
+                        Training of master's students.
+                    </button>
+                </h2>
+                <div id="collapse9" class="accordion-collapse collapse" aria-labelledby="heading9"
+                    data-bs-parent="#newsEventsAccordion">
+                    <div class="accordion-body">
+                        <div class="row">
+                            <div class="col-md-8">
+                                <!-- Scoped Carousel for Event 1 -->
+                                <div id="carouselEvent9" class="carousel slide news-events-carousel"
+                                    data-bs-ride="carouse9">
+                                    <div class="carousel-inner">
+                                        <div class="carousel-item active">
+                                            <img src="img/Picture19.jpg" class="d-block w-100" alt="Event 1 Image 1">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img src="img/Picture20.jpg" class="d-block w-100" alt="Event 1 Image 2">
+                                        </div>
+                                        <!-- More carousel items -->
+                                    </div>
+                                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselEvent9"
+                                        data-bs-slide="prev">
+                                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                        <span class="visually-hidden">Previous</span>
+                                    </button>
+                                    <button class="carousel-control-next" type="button" data-bs-target="#carouselEvent9"
+                                        data-bs-slide="next">
+                                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                        <span class="visually-hidden">Next</span>
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="col-md-4 pt-3">
+                                <ul>
+                                    <li>
+                                        Our laboratory has contributed to the training of master's students supervised
+                                        by members of the laboratory concerned by ministerial decree 12.75 on innovative
+                                        startup projects. Prof. Amroune Mohamed, Dr. Salima Bourougaa, Dr. Haouam Med
+                                        Yassine, Dr. Issam Bendib, Dr. Yahiaoui Ayoub supervised more than half of the
+                                        projects that received the label of innovative projects at our university. Thank
+                                        you!
+                                    </li>
+
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Event 8 (Make sure IDs are unique) -->
+            <div class="accordion-item hide-event">
+                <h2 class="accordion-header" id="heading8">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapse8" aria-expanded="false" aria-controls="collapse8">
+                        <span class="event-date me-3 px-3">1st JUN 23</span>
+                        Training day for doctoral students in mathematics.
+                    </button>
+                </h2>
+                <div id="collapse8" class="accordion-collapse collapse" aria-labelledby="heading8"
+                    data-bs-parent="#newsEventsAccordion">
+                    <div class="accordion-body">
+                        <div class="row">
+                            <div class="col-md-8">
+                                <!-- Scoped Carousel for Event 1 -->
+                                <div id="carouselEvent8" class="carousel slide news-events-carousel"
+                                    data-bs-ride="carouse8">
+                                    <div class="carousel-inner">
+                                        <div class="carousel-item active">
+                                            <img src="img/Picture17.jpg" class="d-block w-100" alt="Event 1 Image 1">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img src="img/Picture18.jpg" class="d-block w-100" alt="Event 1 Image 2">
+                                        </div>
+                                        <!-- More carousel items -->
+                                    </div>
+                                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselEvent8"
+                                        data-bs-slide="prev">
+                                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                        <span class="visually-hidden">Previous</span>
+                                    </button>
+                                    <button class="carousel-control-next" type="button" data-bs-target="#carouselEvent8"
+                                        data-bs-slide="next">
+                                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                        <span class="visually-hidden">Next</span>
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="col-md-4 pt-3">
+                                <ul>
+                                    <li>
+                                        Training day for doctoral students in mathematics with the invited professors
+                                        Kouachi Said (Khenchela university, Algeria) and Khaled Saoudi (Khenchela
+                                        university, Algeria).
+                                    </li>
+
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Event 10 (Make sure IDs are unique) -->
+            <div class="accordion-item hide-event">
+                <h2 class="accordion-header" id="heading10">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapse10" aria-expanded="false" aria-controls="collapse10">
+                        <span class="event-date me-3 px-3">21st MAY 23</span>
+                        Training day for doctoral students in mathematics.
+                    </button>
+                </h2>
+                <div id="collapse10" class="accordion-collapse collapse" aria-labelledby="heading10"
+                    data-bs-parent="#newsEventsAccordion">
+                    <div class="accordion-body">
+                        <div class="row">
+                            <div class="col-md-8">
+                                <!-- Scoped Carousel for Event 1 -->
+                                <div id="carouselEvent10" class="carousel slide news-events-carousel"
+                                    data-bs-ride="carouse10">
+                                    <div class="carousel-inner">
+                                        <div class="carousel-item active">
+                                            <img src="img/Picture21.jpg" class="d-block w-100" alt="Event 1 Image 1">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img src="img/Picture22.jpg" class="d-block w-100" alt="Event 1 Image 2">
+                                        </div>
+                                        <!-- More carousel items -->
+                                    </div>
+                                    <button class="carousel-control-prev" type="button"
+                                        data-bs-target="#carouselEvent10" data-bs-slide="prev">
+                                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                        <span class="visually-hidden">Previous</span>
+                                    </button>
+                                    <button class="carousel-control-next" type="button"
+                                        data-bs-target="#carouselEvent10" data-bs-slide="next">
+                                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                        <span class="visually-hidden">Next</span>
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="col-md-4 pt-3">
+                                <ul>
+                                    <li>
+                                        Training day for doctoral students in mathematics with the invited professors
+                                        Senoussi Guesmia (University of the Bahamas), Abdelmouhcene Sengouga (M'sila
+                                        University, Algeria) and Boumediene Abdellaoui (Tlemcen University, Algeria).
+                                    </li>
+
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Event 11 (Make sure IDs are unique) -->
+            <div class="accordion-item hide-event">
+                <h2 class="accordion-header" id="heading11">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapse11" aria-expanded="false" aria-controls="collapse11">
+                        <span class="event-date me-3 px-3">12-15 MAR 23</span>
+                        The university week of mathematics
+                    </button>
+                </h2>
+                <div id="collapse11" class="accordion-collapse collapse" aria-labelledby="heading11"
+                    data-bs-parent="#newsEventsAccordion">
+                    <div class="accordion-body">
+                        <div class="row">
+                            <div class="col-md-4 pt-3">
+                                <ul>
+                                    <li>
+                                        Our laboratory organized during this Mathematics Week 6 public conferences on
+                                        mathematics and its applications given by Pr. Salem Abdelmalek, Pr. Kamel
+                                        Haouam, Dr. Nebti Abderrazek, Pr. Louafi Tayeb, Dr. Amri Chirine, Pr. Boubaya
+                                        Djamel, an open competition on a reflective question, and a mental calculation
+                                        training workshop organized by Mr. Imed Aimen (PhD student).
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Event 12 (Make sure IDs are unique) -->
+            <div class="accordion-item hide-event">
+                <h2 class="accordion-header" id="heading12">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapse12" aria-expanded="false" aria-controls="collapse12">
+                        <span class="event-date me-3 px-3">16-19 APR 23</span>
+                        the celebration of Science Day on April 16.
+                    </button>
+                </h2>
+                <div id="collapse12" class="accordion-collapse collapse" aria-labelledby="heading12"
+                    data-bs-parent="#newsEventsAccordion">
+                    <div class="accordion-body">
+                        <div class="row">
+                            <div class="col-md-8">
+                                <!-- Scoped Carousel for Event 1 -->
+                                <div id="carouselEvent12" class="carousel slide news-events-carousel"
+                                    data-bs-ride="carouse8">
+                                    <div class="carousel-inner">
+                                        <div class="carousel-item active">
+                                            <img src="img/Picture23.jpg" class="d-block w-100" alt="Event 1 Image 1">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img src="img/Picture24.jpg" class="d-block w-100" alt="Event 1 Image 2">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img src="img/Picture25.jpg" class="d-block w-100" alt="Event 1 Image 2">
+                                        </div>
+                                        <!-- More carousel items -->
+                                    </div>
+                                    <button class="carousel-control-prev" type="button"
+                                        data-bs-target="#carouselEvent12" data-bs-slide="prev">
+                                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                        <span class="visually-hidden">Previous</span>
+                                    </button>
+                                    <button class="carousel-control-next" type="button"
+                                        data-bs-target="#carouselEvent12" data-bs-slide="next">
+                                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                        <span class="visually-hidden">Next</span>
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="col-md-4 pt-3">
+                                <ul>
+                                    <li>
+                                        Within the framework of celebrating the activities of the University Week for
+                                        Artificial Intelligence, which was approved by the Ministry of Education this
+                                        year to coincide with the celebration of Science Day on April 16, the faculty of
+                                        Exact Sciences, Natural and Life Sciences, through our laboratory, and the
+                                        Department of Mathematics and computer science, organized a diverse program that
+                                        extended from April 16 to April 19, 2023. The program included:
+                                    </li>
+                                    <li>
+                                        Lectures on the applications of artificial intelligence in health, natural
+                                        language processing, smart cities, and materials science presented by
+                                        specialized professors: Pr. Amroune Mohamed, Dr. Mekhaznia Taher, Pr. Chemmam
+                                        Fayçel, Dr. Khedhirir Abderrazek & Dr. Slimi Hamda.
+                                    </li>
+                                    <li>General or specialized training workshops organized by Dr. Gasmi Mohamed, Dr.
+                                        Khelifa Boudejemaa, Hama Soltani (PhD student) & Sarra Samet (PhD student).</li>
+                                    <li>An open competition in artificial intelligence applications organized by Pr.
+                                        Chawki Djeddi & Pr/ Gattal Abdeljalil.</li>
+
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Event 13 (Make sure IDs are unique) -->
+            <div class="accordion-item hide-event">
+                <h2 class="accordion-header" id="heading13">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapse13" aria-expanded="false" aria-controls="collapse13">
+                        <span class="event-date me-3 px-3">3 JUL 22</span>
+                        Seed-Startup'2022
+                    </button>
+                </h2>
+                <div id="collapse13" class="accordion-collapse collapse" aria-labelledby="heading13"
+                    data-bs-parent="#newsEventsAccordion">
+                    <div class="accordion-body">
+                        <div class="row">
+                            <div class="col-md-8">
+                                <!-- Scoped Carousel for Event 1 -->
+                                <div id="carouselEvent13" class="carousel slide news-events-carousel"
+                                    data-bs-ride="carouse8">
+                                    <div class="carousel-inner">
+                                        <div class="carousel-item active">
+                                            <img src="img/Picture26.jpg" class="d-block w-100" alt="Event 1 Image 1">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img src="img/Picture27.jpg" class="d-block w-100" alt="Event 1 Image 2">
+                                        </div>
+
+                                        <!-- More carousel items -->
+                                    </div>
+                                    <button class="carousel-control-prev" type="button"
+                                        data-bs-target="#carouselEvent13" data-bs-slide="prev">
+                                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                        <span class="visually-hidden">Previous</span>
+                                    </button>
+                                    <button class="carousel-control-next" type="button"
+                                        data-bs-target="#carouselEvent13" data-bs-slide="next">
+                                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                        <span class="visually-hidden">Next</span>
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="col-md-4 pt-3">
+                                <ul>
+                                    <li>
+                                        Speed-Startup'2022, the first edition of the event, Graduation Project: The seed
+                                        of a start-up company, organized for the benefit of students with projects of a
+                                        social and economic nature by LAMIS laboratory.
+                                    </li>
+
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Event 15 (Make sure IDs are unique) -->
+            <div class="accordion-item hide-event">
+                <h2 class="accordion-header" id="headingFift15">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseFift15" aria-expanded="false" aria-controls="collapseFift15">
+                        <span class="event-date me-3 px-3">29 MAR 22</span>
+                        Huawei Academy's Presentation.
+                    </button>
+                </h2>
+                <div id="collapseFift15" class="accordion-collapse collapse" aria-labelledby="headingFift15"
+                    data-bs-parent="#newsEventsAccordion">
+                    <div class="accordion-body">
+                        <div class="row">
+                            <div class="col-md-8">
+                                <!-- Scoped Carousel for Event 1 -->
+                                <div id="carouselEvent15" class="carousel slide news-events-carousel"
+                                    data-bs-ride="carouse10">
+                                    <div class="carousel-inner">
+                                        <div class="carousel-item active">
+                                            <img src="img/Picture30.jpg" class="d-block w-100" alt="Event 1 Image 1">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img src="img/Picture31.jpg" class="d-block w-100" alt="Event 1 Image 2">
+                                        </div>
+                                        <!-- More carousel items -->
+                                    </div>
+                                    <button class="carousel-control-prev" type="button"
+                                        data-bs-target="#carouselEvent15" data-bs-slide="prev">
+                                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                        <span class="visually-hidden">Previous</span>
+                                    </button>
+                                    <button class="carousel-control-next" type="button"
+                                        data-bs-target="#carouselEvent15" data-bs-slide="next">
+                                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                        <span class="visually-hidden">Next</span>
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="col-md-4 pt-3">
+                                <ul>
+                                    <li>
+                                        Presentation of the Huawei Academy of the University of Tebessa, whose LAMIS
+                                        laboratory participated in its installation.
+                                    </li>
+
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Event 14 (Make sure IDs are unique) -->
+            <div class="accordion-item hide-event">
+                <h2 class="accordion-header" id="heading14">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapse14" aria-expanded="false" aria-controls="collapse14">
+                        <span class="event-date me-3 px-3">26 MAY 22</span>
+                        Doctoral thesis
+                    </button>
+                </h2>
+                <div id="collapse14" class="accordion-collapse collapse" aria-labelledby="heading14"
+                    data-bs-parent="#newsEventsAccordion">
+                    <div class="accordion-body">
+                        <div class="row">
+                            <div class="col-md-4 pt-3">
+                                <ul>
+
+
+
+                                    <li>
+                                        May 26, 2022: "Mr. Atef Bentaher" defended his doctoral thesis entitled " La
+                                        Sécurité de l'internet des Objets en Utilisant la Biométrie". Supervisors: Pr.
+                                        Abdallah Meraoumia & Pr. Hakim Bendjenna.
+                                    </li>
+                                    <li>
+                                        June 8, 2022: "Miss Louafi Meriem" defended his doctoral thesis entitled "
+                                        La Sécurité de l'internet des Objets en Utilisant la Biométrie". Supervisor: Pr.
+                                        Merghadi Fayçel & Dr. Hafdallah Abdelhak.
+
+                                    </li>
+                                    <li>
+                                        June 16, 2022 : "Miss Ghenaiet Bahia" defended his doctoral thesis entitled "
+                                        About solutions of fractional partial differential equations". Supervisor: Pr.
+                                        Adel Ouannas.
+
+                                    </li>
+                                    <li>
+                                        July 13, 2022 "Mr. Abid Djamel" defended his doctoral thesis entitled " Etude de
+                                        quelques
+                                        problémes elliptiques fractionnaire ". Supervisor: Pr. Kamel Akrout.
+                                    </li>
+                                    <li>
+                                        July 13, 2022 "Mr. Zeroual Abdelhakim" defended his doctoral thesis entitled "
+                                        Une approche
+                                        basée sur des techniques biométriques pour la sécurité dans l'environnement du
+                                        mobile cloud computing". Supervisor: Pr. Amroune Mohamed & Pr. Makhlouf Derdour.
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Event 16 (Make sure IDs are unique) -->
+            <div class="accordion-item hide-event">
+                <h2 class="accordion-header" id="headingFifth16">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseFifth16" aria-expanded="false" aria-controls="collapseFifth16">
+                        <span class="event-date me-3 px-3">15 DEC 21</span>
+                        Mathematics and Informatics Doctoral Day.
+                    </button>
+                </h2>
+                <div id="collapseFifth16" class="accordion-collapse collapse" aria-labelledby="headingFifth16"
+                    data-bs-parent="#newsEventsAccordion">
+                    <div class="accordion-body">
+                        <div class="row">
+                            <div class="col-md-8">
+                                <div id="carouselEvent316" class="carousel slide news-events-carousel"
+                                    data-bs-ride="carousel">
+                                    <div class="carousel-inner">
+                                        <div class="carousel-item active">
+                                            <img src="img/Picture32.jpg" class="d-block w-100" alt="Event 2 Image 1">
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div class="col-md-4 pt-3">
+                                <ul>
+                                    <li>
+                                        Mathematics and Informatics Doctoral Day (MI2D' 2021). Evaluation day for
+                                        laboratory doctoral students
+                                    </li>
+
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Load More Button -->
+            <div class="text-center mt-4">
+                <button id="loadMoreEvents" class="btn btn-outline-primary" style="border-radius: 5%;">Load More
+                    Events</button>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+    <!-- Publications section with collapsible tabs -->
+    <section class="publications container my-5">
+        <h2 class="text-center mb-4">Recent Publications</h2>
+
+
+
+        <!-- Tab content -->
+        <div class="tab-content" id="publicationsTabContent">
+
+            <!-- Publications for 2024 -->
+            <div class="row mt-4">
+                <!-- Publication 21 -->
+                <div class="col-md-6 col-lg-4 mb-3 ">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <h5 class="card-title">Benkhalfallah F., Laouar M.R., Benkhalfallah M.S.</h5>
+                            <p class="card-text">
+                                <strong>Title:</strong> Examining Adaptive E-Learning Approaches to Enhance Learning and
+                                Individual Experiences<br>
+                                <strong>Journal:</strong> Acta Informatica Pragensia, 13(2), 2024<br>
+                                <a href="https://www.ceeol.com/search/article-detail?id=1256507" target="_blank"
+                                    class="btn btn-link">
+                                    <i class="bi bi-box-arrow-up-right"></i> Read More
+                                </a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Publication 22 -->
+                <div class="col-md-6 col-lg-4 mb-3 ">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <h5 class="card-title">Amira R., Abdelouahab M.S., Touafek N., et al.</h5>
+                            <p class="card-text">
+                                <strong>Title:</strong> Nonlinear dynamic in a remanufacturing duopoly game: spectral
+                                entropy analysis and chaos control<br>
+                                <strong>Journal:</strong> AIMS Mathematics, 9(3), 7711-7727, 2024<br>
+                                <a href="https://www.aimspress.com/article/doi/10.3934/math.2024374" target="_blank"
+                                    class="btn btn-link">
+                                    <i class="bi bi-box-arrow-up-right"></i> Read More
+                                </a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Publication 1 -->
+                <div class="col-md-6 col-lg-4 mb-3">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <h5 class="card-title">Soltani H., Amroune M., Bendib I., et al.</h5>
+                            <p class="card-text">
+                                <strong>Title:</strong> Breast lesions segmentation and classification in a
+                                two-stage process based on Mask-RCNN and Transfer Learning<br>
+                                <strong>Journal:</strong> Multimedia Tools and Applications, 83(12), 2024<br>
+                                <a href="https://link.springer.com/article/10.1007/s11042-023-16895-5" target="_blank"
+                                    class="btn btn-link">
+                                    <i class="bi bi-box-arrow-up-right"></i> Read More
+                                </a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Publication 2 -->
+                <div class="col-md-6 col-lg-4 mb-3">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <h5 class="card-title">Soltani H., Bendib I., Haouam M.Y., Amroune M.</h5>
+                            <p class="card-text">
+                                <strong>Title:</strong> Advancements in Breast Cancer Diagnosis: A Comprehensive
+                                Review of Mammography Datasets, Preprocessing and Classification Techniques<br>
+                                <strong>Journal:</strong> Acta Informatica Pragensia, 13(2), 2024<br>
+                                <a href="https://www.ceeol.com/search/article-detail?id=1256506" target="_blank"
+                                    class="btn btn-link">
+                                    <i class="bi bi-box-arrow-up-right"></i> Read More
+                                </a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Publication 3 -->
+                <div class="col-md-6 col-lg-4 mb-3">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <h5 class="card-title">Mammeri S., Amroune M., Haouam M.Y., et al.</h5>
+                            <p class="card-text">
+                                <strong>Title:</strong> Early detection and diagnosis of lung cancer using YOLO v7,
+                                and transfer learning<br>
+                                <strong>Journal:</strong> Multimedia Tools and Applications, 83(10), 2024<br>
+                                <a href="https://link.springer.com/article/10.1007/s11042-023-16864-y" target="_blank"
+                                    class="btn btn-link">
+                                    <i class="bi bi-box-arrow-up-right"></i> Read More
+                                </a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Publication 4 -->
+                <div class="col-md-6 col-lg-4 mb-3 hide-publication">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <h5 class="card-title">Belhocine Y., Meraoumia A., Abderrazak K., et al.</h5>
+                            <p class="card-text">
+                                <strong>Title:</strong> Efficient Contactless Palmprint Recognition System Based on
+                                Deep Rule-based Classification<br>
+                                <strong>Journal:</strong> Acta Informatica Pragensia, 13(2), 2024<br>
+                                <a href="https://www.ceeol.com/search/article-detail?id=1256500" target="_blank"
+                                    class="btn btn-link">
+                                    <i class="bi bi-box-arrow-up-right"></i> Read More
+                                </a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Publication 5 -->
+                <div class="col-md-6 col-lg-4 mb-3 hide-publication">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <h5 class="card-title">Bendjenna H., Chung L., Meraoumia A.</h5>
+                            <p class="card-text">
+                                <strong>Title:</strong> Innovations in Deep Learning and Intelligent Systems for
+                                Healthcare and Engineering Applications<br>
+                                <strong>Journal:</strong> Acta Informatica Pragensia, 13(2), 2024<br>
+                                <a href="https://www.ceeol.com/search/article-detail?id=1256498" target="_blank"
+                                    class="btn btn-link">
+                                    <i class="bi bi-box-arrow-up-right"></i> Read More
+                                </a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Publication 6 -->
+                <div class="col-md-6 col-lg-4 mb-3 hide-publication">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <h5 class="card-title">Khediri A., Yahiaoui A., Laouar M.R., et al.</h5>
+                            <p class="card-text">
+                                <strong>Title:</strong> Deep Learning Proactive Approach to Blackout Prevention in
+                                Smart Grids: An Early Warning System<br>
+                                <strong>Journal:</strong> Acta Informatica Pragensia, 13(2), 2024<br>
+                                <a href="https://www.ceeol.com/search/article-detail?id=1256504" target="_blank"
+                                    class="btn btn-link">
+                                    <i class="bi bi-box-arrow-up-right"></i> Read More
+                                </a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Publication 7 -->
+                <div class="col-md-6 col-lg-4 mb-3 hide-publication">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <h5 class="card-title">Hamimed S., Ben Ammar N.E., Slimi H., et al.</h5>
+                            <p class="card-text">
+                                <strong>Title:</strong> Innovative entrapped Yarrowia lipolytica within
+                                polyvinylpyrrolidone (PVP)/polyethylene glycol (PEG)/agar for improving olive mill
+                                wastewater bioremediation<br>
+                                <strong>Journal:</strong> Journal of Cleaner Production, 449, 2024<br>
+                                <a href="https://www.sciencedirect.com/science/article/abs/pii/S0959652624012769"
+                                    target="_blank" class="btn btn-link">
+                                    <i class="bi bi-box-arrow-up-right"></i> Read More
+                                </a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Publication 8 -->
+                <div class="col-md-6 col-lg-4 mb-3 hide-publication">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <h5 class="card-title">Makhlouf Z., Meraoumia A., Lakhdar L., Haouam M.Y.</h5>
+                            <p class="card-text">
+                                <strong>Title:</strong> Enhancing Medical Data Security In E-health systems using
+                                biometrics-based watermarking<br>
+                                <strong>Journal:</strong> Applied Computer Science, 20(1), 2024<br>
+                                <a href="https://ph.pollub.pl/index.php/acs/article/view/3680" target="_blank"
+                                    class="btn btn-link">
+                                    <i class="bi bi-box-arrow-up-right"></i> Read More
+                                </a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Publication 9 -->
+                <div class="col-md-6 col-lg-4 mb-3 hide-publication">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <h5 class="card-title">Bennour A., Mekhaznia T.</h5>
+                            <p class="card-text">
+                                <strong>Title:</strong> Park-Net: A Deep Model for Early Detection of Parkinson's
+                                Disease Through Automatic Analysis of Handwriting<br>
+                                <strong>Journal:</strong> SN Computer Science, 5(7), 2024<br>
+                                <a href="https://link.springer.com/article/10.1007/s42979-024-03250-0" target="_blank"
+                                    class="btn btn-link">
+                                    <i class="bi bi-box-arrow-up-right"></i> Read More
+                                </a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Publication 10 -->
+                <div class="col-md-6 col-lg-4 mb-3 hide-publication">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <h5 class="card-title">Hazem F., Bennour A., Mekhaznia T., et al.</h5>
+                            <p class="card-text">
+                                <strong>Title:</strong> Beyond Traditional Biometrics: Harnessing Chest X-Ray
+                                Features for Robust Person Identification<br>
+                                <strong>Journal:</strong> Acta Informatica Pragensia, 13(2), 2024<br>
+                                <a href="https://www.ceeol.com/search/article-detail?id=1256502" target="_blank"
+                                    class="btn btn-link">
+                                    <i class="bi bi-box-arrow-up-right"></i> Read More
+                                </a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Publication 11 -->
+                <div class="col-md-6 col-lg-4 mb-3 hide-publication">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <h5 class="card-title">Boudraa M., Bennour A., Mekhaznia T., et al.</h5>
+                            <p class="card-text">
+                                <strong>Title:</strong> Revolutionizing Historical Manuscript Analysis: A Deep
+                                Learning Approach with Intelligent Feature Extraction for Script Classification<br>
+                                <strong>Journal:</strong> Acta Informatica Pragensia, 13(2), 2024<br>
+                                <a href="https://www.ceeol.com/search/article-detail?id=1256503" target="_blank"
+                                    class="btn btn-link">
+                                    <i class="bi bi-box-arrow-up-right"></i> Read More
+                                </a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Publication 12 -->
+                <div class="col-md-6 col-lg-4 mb-3 hide-publication">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <h5 class="card-title">Boudraa M., Bennour A., Al-Sarem M., et al.</h5>
+                            <p class="card-text">
+                                <strong>Title:</strong> Contribution to historical manuscript dating: A hybrid
+                                approach employing hand-crafted features with vision transformers<br>
+                                <strong>Journal:</strong> Digital Signal Processing, 149, 2024<br>
+                                <a href="https://www.sciencedirect.com/science/article/abs/pii/S1051200424001027"
+                                    target="_blank" class="btn btn-link">
+                                    <i class="bi bi-box-arrow-up-right"></i> Read More
+                                </a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Publication 13 -->
+                <div class="col-md-6 col-lg-4 mb-3 hide-publication ">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <h5 class="card-title">Fettah A., Menassel R., Gattal A., Gattal A.</h5>
+                            <p class="card-text">
+                                <strong>Title:</strong> Convolutional Autoencoder-Based medical image compression
+                                using a novel annotated medical X-ray imaging dataset<br>
+                                <strong>Journal:</strong> Biomedical Signal Processing and Control, 94, 2024<br>
+                                <a href="https://www.sciencedirect.com/science/article/abs/pii/S1746809424002969"
+                                    target="_blank" class="btn btn-link">
+                                    <i class="bi bi-box-arrow-up-right"></i> Read More
+                                </a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Publication 14 -->
+                <div class="col-md-6 col-lg-4 mb-3 hide-publication">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <h5 class="card-title">Yousfi D., Gattal A., Djeddi C.</h5>
+                            <p class="card-text">
+                                <strong>Title:</strong> Keyword Spotting from Historical Handwritten Manuscripts
+                                using CLBP and CRLBP<br>
+                                <strong>Journal:</strong> International Journal of Performability Engineering,
+                                20(2), 2024<br>
+                                <a href="https://openurl.ebsco.com/EPDB%3Agcd%3A1%3A19502625/detailv2" target="_blank"
+                                    class="btn btn-link">
+                                    <i class="bi bi-box-arrow-up-right"></i> Read More
+                                </a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Publication 15 -->
+                <div class="col-md-6 col-lg-4 mb-3 hide-publication">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <h5 class="card-title">Nabti A.</h5>
+                            <p class="card-text">
+                                <strong>Title:</strong> Dynamical analysis of an age-structured SEIR model with
+                                relapse<br>
+                                <strong>Journal:</strong> Z. Angew. Math. Phys. 75, 84, 2024<br>
+                                <a href="https://doi.org/10.1007/s00033-024-02227-6" target="_blank"
+                                    class="btn btn-link">
+                                    <i class="bi bi-box-arrow-up-right"></i> Read More
+                                </a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Publication 16 -->
+                <div class="col-md-6 col-lg-4 mb-3 hide-publication">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <h5 class="card-title">Akrout K., Fareh S.</h5>
+                            <p class="card-text">
+                                <strong>Title:</strong> Multiplicity results for some Steklov problems involving
+                                p(x)-Laplacian operator<br>
+                                <strong>Journal:</strong> Novi Sad J. Math. Vol. 54, No. 1, 2024<br>
+                                <a href="https://doi.org/10.30755/NSJOM.14803" target="_blank" class="btn btn-link">
+                                    <i class="bi bi-box-arrow-up-right"></i> Read More
+                                </a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Publication 17 -->
+                <div class="col-md-6 col-lg-4 mb-3 hide-publication">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <h5 class="card-title">Benzahi M., Zaraï A., Boulaaras S., et al.</h5>
+                            <p class="card-text">
+                                <strong>Title:</strong> Blow up and lifespan of solutions for elastic membrane
+                                equation with delay<br>
+                                <strong>Journal:</strong> Results in Applied Mathematics, 21, 2024<br>
+                                <a href="https://www.sciencedirect.com/science/article/pii/S2590037423000729"
+                                    target="_blank" class="btn btn-link">
+                                    <i class="bi bi-box-arrow-up-right"></i> Read More
+                                </a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Publication 18 -->
+                <div class="col-md-6 col-lg-4 mb-3 hide-publication">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <h5 class="card-title">Yousfi H., Islam Y., He S., et al.</h5>
+                            <p class="card-text">
+                                <strong>Title:</strong> Advanced medical image encryption techniques using the
+                                fractional-order Halvorsen circulant systems<br>
+                                <strong>Journal:</strong> Physica Scripta, 99(5), 2024<br>
+                                <a href="https://iopscience.iop.org/article/10.1088/1402-4896/ad35f3/meta"
+                                    target="_blank" class="btn btn-link">
+                                    <i class="bi bi-box-arrow-up-right"></i> Read More
+                                </a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Publication 19 -->
+                <div class="col-md-6 col-lg-4 mb-3 hide-publication">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <h5 class="card-title">Bentata F.E., Mokhtari A., Boumaza N.</h5>
+                            <p class="card-text">
+                                <strong>Title:</strong> A variational approach to a constrained hyperbolic Kirchhoff
+                                type problem with free boundary<br>
+                                <strong>Journal:</strong> South Florida Journal of Development, 5(7), 2024<br>
+                                <a href="https://ojs.southfloridapublishing.com/ojs/index.php/jdev/article/view/4137"
+                                    target="_blank" class="btn btn-link">
+                                    <i class="bi bi-box-arrow-up-right"></i> Read More
+                                </a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Publication 20 -->
+                <div class="col-md-6 col-lg-4 mb-3 hide-publication">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <h5 class="card-title">Aounallah R., Choucha A., Boulaaras S., et al.</h5>
+                            <p class="card-text">
+                                <strong>Title:</strong> Asymptotic behavior of a viscoelastic wave equation with a
+                                delay in internal fractional feedback<br>
+                                <strong>Journal:</strong> Archives of Control Sciences, 2024<br>
+                                <a href="https://journals.pan.pl/Content/131943/art-6.pdf" target="_blank"
+                                    class="btn btn-link">
+                                    <i class="bi bi-box-arrow-up-right"></i> Read More
+                                </a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Load More Button for Publications -->
+                <div class="text-center mt-4">
+                    <button id="loadMorePublications" class="btn btn-outline-primary" style="border-radius: 5%;">Load
+                        More Publications</button>
+                </div>
+            </div>
+
+
+
+
+
+
+            <!-- Add more years' tabs and publications as needed -->
+
+        </div>
+    </section>
+
+
+
+
+
+    <!-- About Start -->
+    <div class="container-fluid py-5">
+        <div class="container">
+            <div class="row g-5">
+                <div class="col-lg-6 wow fadeIn" data-wow-delay="0.1s">
+                    <div class="row g-0">
+                        <div class="col-6">
+                            <img class="img-fluid" src="img/Picture23.jpg">
+                        </div>
+                        <div class="col-6">
+                            <img class="img-fluid" src="img/Picture26.jpg">
+                        </div>
+                        <div class="col-6">
+                            <img class="img-fluid" src="img/Picture29.jpg">
+                        </div>
+                        <div class="col-6">
+                            <div
+                                class="bg-primary w-100 h-100 mt-n5 ms-n5 d-flex flex-column align-items-center justify-content-center">
+                                <div class="icon-box-light">
+                                    <i class="bi bi-award text-dark"></i>
+                                </div>
+                                <h1 class="display-1 text-white mb-0" data-toggle="counter-up">12</h1>
+                                <small class="fs-5 text-white">Years Experience</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 wow fadeIn" data-wow-delay="0.5s">
+                    <h1 class="display-6 mb-4">Trusted Experts with Latest Technologies</h1>
+
+                    <div class="row g-4 g-sm-5 justify-content-center">
+                        <div class="col-sm-6">
+                            <div class="about-fact btn-square flex-column rounded-circle bg-primary ms-sm-auto">
+                                <p class="text-white mb-0">Defended Thesis</p>
+                                <h1 class="text-white mb-0" data-toggle="counter-up">44</h1>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 text-start">
+                            <div class="about-fact btn-square flex-column rounded-circle bg-secondary me-sm-auto">
+                                <p class="text-white mb-0">PhD students</p>
+                                <h1 class="text-white mb-0" data-toggle="counter-up">73</h1>
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="about-fact mt-n130 btn-square flex-column rounded-circle bg-dark mx-sm-auto">
+                                <p class="text-white mb-0">Ongoing research projects</p>
+                                <h1 class="text-white mb-0" data-toggle="counter-up">15</h1>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- About End -->
+
+
+
+
+
+    <!-- Service Start -->
+    <!-- <div class="container-fluid container-service py-5">
+        <div class="container pt-5">
+            <div class="text-center mx-auto wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px;">
+                <h1 class="display-6 mb-3">Reliable & High-Quality Laboratory Service</h1>
+                <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur tellus augue, iaculis
+                    id elit eget, ultrices pulvinar tortor.</p>
+            </div>
+            <div class="row g-4">
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="service-item">
+                        <div class="icon-box-primary mb-4">
+                            <i class="bi bi-heart-pulse text-dark"></i>
+                        </div>
+                        <h5 class="mb-3">Pathology Testing</h4>
+                            <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur tellus
+                                augue.</p>
+                            <a class="btn btn-light px-3" href="">Read More<i
+                                    class="bi bi-chevron-double-right ms-1"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="service-item">
+                        <div class="icon-box-primary mb-4">
+                            <i class="bi bi-lungs text-dark"></i>
+                        </div>
+                        <h5 class="mb-3">Microbiology Tests</h4>
+                            <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur tellus
+                                augue.</p>
+                            <a class="btn btn-light px-3" href="">Read More<i
+                                    class="bi bi-chevron-double-right ms-1"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="service-item">
+                        <div class="icon-box-primary mb-4">
+                            <i class="bi bi-virus text-dark"></i>
+                        </div>
+                        <h5 class="mb-3">Biochemistry Tests</h4>
+                            <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur tellus
+                                augue.</p>
+                            <a class="btn btn-light px-3" href="">Read More<i
+                                    class="bi bi-chevron-double-right ms-1"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
+                    <div class="service-item">
+                        <div class="icon-box-primary mb-4">
+                            <i class="bi bi-capsule-pill text-dark"></i>
+                        </div>
+                        <h5 class="mb-3">Histopatology Tests</h4>
+                            <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur tellus
+                                augue.</p>
+                            <a class="btn btn-light px-3" href="">Read More<i
+                                    class="bi bi-chevron-double-right ms-1"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="service-item">
+                        <div class="icon-box-primary mb-4">
+                            <i class="bi bi-capsule text-dark"></i>
+                        </div>
+                        <h5 class="mb-3">Urine Tests</h4>
+                            <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur tellus
+                                augue.</p>
+                            <a class="btn btn-light px-3" href="">Read More<i
+                                    class="bi bi-chevron-double-right ms-1"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="service-item">
+                        <div class="icon-box-primary mb-4">
+                            <i class="bi bi-prescription2 text-dark"></i>
+                        </div>
+                        <h5 class="mb-3">Blood Tests</h4>
+                            <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur tellus
+                                augue.</p>
+                            <a class="btn btn-light px-3" href="">Read More<i
+                                    class="bi bi-chevron-double-right ms-1"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="service-item">
+                        <div class="icon-box-primary mb-4">
+                            <i class="bi bi-clipboard2-pulse text-dark"></i>
+                        </div>
+                        <h5 class="mb-3">Fever Tests</h4>
+                            <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur tellus
+                                augue.</p>
+                            <a class="btn btn-light px-3" href="">Read More<i
+                                    class="bi bi-chevron-double-right ms-1"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
+                    <div class="service-item">
+                        <div class="icon-box-primary mb-4">
+                            <i class="bi bi-file-medical text-dark"></i>
+                        </div>
+                        <h5 class="mb-3">Allergy Tests</h4>
+                            <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur tellus
+                                augue.</p>
+                            <a class="btn btn-light px-3" href="">Read More<i
+                                    class="bi bi-chevron-double-right ms-1"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> -->
+    <!-- Service End -->
+
+
+
+    <!-- Team Start -->
+    <!-- <div class="container-fluid container-team py-5">
+        <div class="container pb-5">
+            <div class="row g-5 align-items-center mb-5">
+                <div class="col-md-6 wow fadeIn" data-wow-delay="0.3s">
+                    <img class="img-fluid w-100" src="img/team-1.jpg" alt="">
+                </div>
+                <div class="col-md-6 wow fadeIn" data-wow-delay="0.5s">
+                    <h1 class="display-6 mb-3">Dr. John Martin</h1>
+                    <p class="mb-1">CEO & Founder</p>
+                    <p class="mb-5">Labsky, New York, USA</p>
+                    <h3 class="mb-3">Biography</h3>
+                    <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur tellus augue,
+                        iaculis id elit eget, ultrices pulvinar tortor. Quisque vel lorem porttitor, malesuada arcu
+                        quis, fringilla risus. Pellentesque eu consequat augue.</p>
+                    <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur tellus augue,
+                        iaculis id elit eget, ultrices pulvinar tortor. Quisque vel lorem porttitor, malesuada arcu
+                        quis, fringilla risus. Pellentesque eu consequat augue.</p>
+                    <div class="d-flex">
+                        <a class="btn btn-lg-square btn-primary me-2" href=""><i class="fab fa-facebook-f"></i></a>
+                        <a class="btn btn-lg-square btn-primary me-2" href=""><i class="fab fa-twitter"></i></a>
+                        <a class="btn btn-lg-square btn-primary me-2" href=""><i class="fab fa-linkedin-in"></i></a>
+                        <a class="btn btn-lg-square btn-primary me-2" href=""><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="row g-4">
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="team-item">
+                        <div class="position-relative overflow-hidden">
+                            <img class="img-fluid w-100" src="img/team-2.jpg" alt="">
+                            <div class="team-social">
+                                <a class="btn btn-square btn-light mx-1" href=""><i class="fab fa-facebook-f"></i></a>
+                                <a class="btn btn-square btn-light mx-1" href=""><i class="fab fa-twitter"></i></a>
+                                <a class="btn btn-square btn-light mx-1" href=""><i class="fab fa-linkedin-in"></i></a>
+                                <a class="btn btn-square btn-light mx-1" href=""><i class="fab fa-youtube"></i></a>
+                            </div>
+                        </div>
+                        <div class="text-center p-4">
+                            <h5 class="mb-1">Alex Robin</h5>
+                            <span>Lab Assistant</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="team-item">
+                        <div class="position-relative overflow-hidden">
+                            <img class="img-fluid w-100" src="img/team-3.jpg" alt="">
+                            <div class="team-social">
+                                <a class="btn btn-square btn-light mx-1" href=""><i class="fab fa-facebook-f"></i></a>
+                                <a class="btn btn-square btn-light mx-1" href=""><i class="fab fa-twitter"></i></a>
+                                <a class="btn btn-square btn-light mx-1" href=""><i class="fab fa-linkedin-in"></i></a>
+                                <a class="btn btn-square btn-light mx-1" href=""><i class="fab fa-youtube"></i></a>
+                            </div>
+                        </div>
+                        <div class="text-center p-4">
+                            <h5 class="mb-1">Andrew Bon</h5>
+                            <span>Lab Assistant</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="team-item">
+                        <div class="position-relative overflow-hidden">
+                            <img class="img-fluid w-100" src="img/team-4.jpg" alt="">
+                            <div class="team-social">
+                                <a class="btn btn-square btn-light mx-1" href=""><i class="fab fa-facebook-f"></i></a>
+                                <a class="btn btn-square btn-light mx-1" href=""><i class="fab fa-twitter"></i></a>
+                                <a class="btn btn-square btn-light mx-1" href=""><i class="fab fa-linkedin-in"></i></a>
+                                <a class="btn btn-square btn-light mx-1" href=""><i class="fab fa-youtube"></i></a>
+                            </div>
+                        </div>
+                        <div class="text-center p-4">
+                            <h5 class="mb-1">Martin Tompson</h5>
+                            <span>Lab Assistant</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
+                    <div class="team-item">
+                        <div class="position-relative overflow-hidden">
+                            <img class="img-fluid w-100" src="img/team-5.jpg" alt="">
+                            <div class="team-social">
+                                <a class="btn btn-square btn-light mx-1" href=""><i class="fab fa-facebook-f"></i></a>
+                                <a class="btn btn-square btn-light mx-1" href=""><i class="fab fa-twitter"></i></a>
+                                <a class="btn btn-square btn-light mx-1" href=""><i class="fab fa-linkedin-in"></i></a>
+                                <a class="btn btn-square btn-light mx-1" href=""><i class="fab fa-youtube"></i></a>
+                            </div>
+                        </div>
+                        <div class="text-center p-4">
+                            <h5 class="mb-1">Clarabelle Samber</h5>
+                            <span>Lab Assistant</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> -->
+    <!-- Team End -->
+
+
+
+
+    <!-- Footer Start -->
+    <div class="container-fluid footer position-relative bg-dark text-white-50 py-5 wow fadeIn" data-wow-delay="0.1s">
+        <div class="container">
+            <div class="row g-5 py-5">
+                <div class="col-lg-6 pe-lg-5">
+                    <a href="index.html" class="navbar-brand">
+                        <h1 class="h1 text-primary mb-0">LA<span class="text-white">MIS</span></h1>
+                    </a>
+                    <p class="fs-5 mb-4">We thrive on mutually beneficial partnerships, collaborations that drive
+                        innovations and new technologies.</p>
+                    <p><i class="fa fa-map-marker-alt me-2"></i>LAboratory of Mathematics, Informatics and Systems
+                        (LAMIS),
+                        Echahid Cheikh Larbi Tebessi university, Tebessa, 12002, Algeria
+                    </p>
+                    <p><i class="fa fa-phone-alt me-2"></i>(+213) 37 584 638</p>
+                    <p><i class="fa fa-envelope me-2"></i>labo.lamis@univ-tebessa.dz</p>
+                    <div class="d-flex mt-4">
+                        <a class="btn btn-lg-square btn-primary me-2" href="#"><i class="fab fa-twitter"></i></a>
+                        <a class="btn btn-lg-square btn-primary me-2" href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a class="btn btn-lg-square btn-primary me-2" href="#"><i class="fab fa-linkedin-in"></i></a>
+                        <a class="btn btn-lg-square btn-primary me-2" href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-6 ps-lg-5">
+                    <div class="row g-5">
+                        <div class="col-sm-6">
+                            <h4 class="text-light mb-4">Quick Links</h4>
+                            <a class="btn btn-link" href="about.html">About Us</a>
+                            <a class="btn btn-link" href="contact.html">Contact Us</a>
+
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer End -->
+
+
+    <!-- Copyright Start -->
+    <div class="container-fluid copyright bg-dark text-white-50 py-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 text-center text-md-start">
+                    <p class="mb-0">&copy; <a href="#">LAMIS</a>. All Rights Reserved.</p>
+                </div>
+                <div class="col-md-6 text-center text-md-end">
+                    <!--/*** This template is free as long as you keep the footer author's credit link/attribution link/backlink. If you'd like to use the template without the footer author's credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support. ***/-->
+                    <p class="mb-0">Designed by <a href="https://htmlcodex.com">M.G</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Copyright End -->
+
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-lg btn-primary btn-lg-square rounded-circle back-to-top"><i
+            class="bi bi-arrow-up"></i></a>
+
+
+    <!-- JavaScript Libraries -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/counterup/counterup.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>

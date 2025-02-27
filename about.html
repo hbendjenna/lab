@@ -1,0 +1,539 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>LAMIS</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&family=Red+Rose:wght@600;700&display=swap"
+        rel="stylesheet">
+
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Spinner Start -->
+    <div id="spinner"
+        class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+        <div class="spinner-border text-primary" role="status" style="width: 3rem; height: 3rem;"></div>
+    </div>
+    <!-- Spinner End -->
+
+
+
+
+
+    <!-- Brand Start -->
+    <div class="container-fluid text-white pt-4 pb-5 d-none d-lg-flex" style="background-color: #448AFF;">
+        <div class="container pb-2">
+            <div class="d-flex align-items-center justify-content-between">
+                <div class="d-flex">
+                    <div class="ms-3">
+                        <img src="./img/Picture0.png" alt="" style="max-width: 150px;">
+                    </div>
+                </div>
+                <a href="index.html" class="h1 text-white mb-0">LA<span class="text-dark">MIS</span> Laboratory</a>
+                <div class="d-flex">
+                    <i class="bi bi-envelope fs-2"></i>
+                    <div class="ms-3">
+                        <h5 class="text-white mb-0">Mail Now</h5>
+                        <span>labo.lamis@univ-tebessa.dz</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Brand End -->
+
+
+    <!-- Navbar Start -->
+    <div class="container-fluid sticky-top">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-light bg-white py-lg-0 px-lg-3">
+                <a href="index.html" class="navbar-brand d-lg-none">
+                    <h1 class="text-primary m-0">LA<span class="text-dark">MIS</span></h1>
+                </a>
+                <button type="button" class="navbar-toggler me-0" data-bs-toggle="collapse"
+                    data-bs-target="#navbarCollapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <div class="navbar-nav">
+                        <a href="index.html" class="nav-item nav-link ">Home</a>
+                        <a href="about.html" class="nav-item nav-link active">About</a>
+                        <div class="nav-item dropdown">
+                            <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Teams & People</a>
+                            <div class="dropdown-menu bg-light m-0">
+                                <a href="team1.html" class="dropdown-item">Engineering of Information and Imaging
+                                    Systems</a>
+                                <a href="team2.html" class="dropdown-item">Distributed and Intelligent Systems</a>
+                                <a href="team3.html" class="dropdown-item">Analyse and Applied Mathematics </a>
+                                <a href="team4.html" class="dropdown-item">Dynamic, Elliptical and Chaotic
+                                    Systems</a>
+                            </div>
+                        </div>
+                        <div class="nav-item dropdown">
+                            <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Research</a>
+                            <div class="dropdown-menu bg-light m-0">
+                                <a href="research.html" class="dropdown-item">Current Projects</a>
+                                <a href="pastProjects.html" class="dropdown-item">Past Projects</a>
+                                <div class="dropdown-item thesis-dropdown p-0">
+                                    <a href="#" class="nav-link">Defended Thesis <i class="bi bi-chevron-right"></i></a>
+                                    <div class="thesis-submenu bg-light">
+                                        <a href="thesisMath.html" class="dropdown-item">Mathematics</a>
+                                        <a href="thesisInfo.html" class="dropdown-item">Computer Science</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <a href="resources.html" class="nav-item nav-link">Resources</a>
+                        <a href="awards.html" class="nav-item nav-link">Awards</a>
+                        <a href="partnership.html" class="nav-item nav-link">Partnership</a>
+                        <a href="contact.html" class="nav-item nav-link">Contact</a>
+                    </div>
+                    <div class="ms-auto d-none d-lg-flex">
+                        <a class="btn btn-sm-square btn-primary ms-2" href=""><i class="fab fa-facebook-f"></i></a>
+                        <a class="btn btn-sm-square btn-primary ms-2" href=""><i class="fab fa-twitter"></i></a>
+                        <a class="btn btn-sm-square btn-primary ms-2" href=""><i class="fab fa-linkedin-in"></i></a>
+                        <a class="btn btn-sm-square btn-primary ms-2" href=""><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </div>
+    <!-- Navbar End -->
+
+
+    <!-- Page Header Start -->
+    <div class="container-fluid page-header py-5 mb-5 wow fadeIn" data-wow-delay="0.1s">
+        <div class="container text-center py-5 mt-4">
+            <h1 class="display-2 text-white mb-3 animated slideInDown">About</h1>
+            <nav aria-label="breadcrumb animated slideInDown">
+                <ol class="breadcrumb justify-content-center mb-0">
+                    <li class="breadcrumb-item"><a href="#">Home</a></li>
+                    <li class="breadcrumb-item" aria-current="page">About</li>
+                </ol>
+            </nav>
+        </div>
+    </div>
+    <!-- Page Header End -->
+
+    <!-- About Us Section Start -->
+    <section id="about-lamis" class="container my-5">
+        <div class="row align-items-center">
+
+            <!-- Text Section -->
+            <div class="col-md-6" id="lamis-text">
+                <h2 id="lamis-heading" class="text-primary mb-4">LAMIS Laboratory</h2>
+                <p class="lamis-paragraph">
+                    Welcome to the University of Latbi Tbessi Laboratory of Mathematics, Informatics and Systems
+                    (LAMIS).
+                    The Laboratory was established in 2012. It is an organization within the Department of Mathematics,
+                    and Computer Science, Faculty of Exact Sciences, Life and Natural Sciences at the University of
+                    Laarbi Tbessi, Tebessa, Algeria. Professor Hakim Bendjenna is the director of the laboratory.
+                </p>
+                <p class="lamis-paragraph">
+                    At the LAMIS lab, we have a strong team of people with diverse expertise, talents, and interest
+                    areas.
+                    LAMIS is a community of mathematical and computer scientists. The Laboratory undertakes research in
+                    a broad
+                    range of subjects within the disciplines of Computer Science, Engineering, Technology, and
+                    Mathematics.
+                </p>
+                <p class="lamis-paragraph">
+                    Current research areas include computer architecture, computer vision, distributed systems, image
+                    and signal
+                    processing, logic and semantics, natural language processing, networking and wireless communication,
+                    operating
+                    systems and virtualization, and sustainable computing.
+                </p>
+            </div>
+            <!-- Image Section -->
+            <div class="col-md-6 mb-4 px-5">
+                <div id="lamisCarousel" class="carousel slide" data-bs-ride="carousel">
+                    <!-- Carousel Indicators -->
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#lamisCarousel" data-bs-slide-to="0"
+                            class="active"></button>
+                        <button type="button" data-bs-target="#lamisCarousel" data-bs-slide-to="1"></button>
+
+                    </div>
+
+                    <!-- Carousel Items -->
+                    <div class="carousel-inner rounded shadow">
+                        <div class="carousel-item active">
+                            <img src="./img/Picture33.jpg" alt="LAMIS Lab Team" class="d-block w-100">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./img/about1.jpg" alt="LAMIS Lab" class="d-block w-100">
+                        </div>
+
+                    </div>
+
+                    <!-- Carousel Controls -->
+                    <button class="carousel-control-prev" type="button" data-bs-target="#lamisCarousel"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#lamisCarousel"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+
+        </div>
+        <p class="lamis-paragraph pt-5">
+            The laboratory is divided into four (4) teams with clearly identified research themes. At present
+            there are
+            about one hundred and fifteen (115) members. A further 73 postgraduates are engaged in research for
+            the
+            PhD. It
+            is
+            thanks to the efforts of all of our committed team members that we are able to conduct such
+            successful
+            research
+            studies.
+        </p>
+
+    </section>
+    <!-- About Us Section End -->
+
+
+    <!-- Team Start -->
+    <div class="container-fluid container-team py-5">
+        <div class="container pb-5">
+
+            <div class="row g-4">
+
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="team-item">
+                        <div class="position-relative overflow-hidden">
+                            <img class="img-fluid w-100" src="img/Mohamed-Laouar.png" alt="">
+                            <div class="team-social">
+                                <a class="btn btn-square btn-light mx-1" href="javascript:void(0)"
+                                    onclick="copyEmail('lamis@gmail.com')">
+                                    <i class="bi bi-envelope-check-fill"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="text-center p-4">
+                            <h5 class="mb-1">Pr. Mohamed Ridda Laouar</h5>
+                            <span><a href="team1.html" style="color: #8a91ac;">Engineering of Information and Imaging
+                                    Systems</a></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="team-item">
+                        <div class="position-relative overflow-hidden">
+                            <img class="img-fluid w-100" src="img/hakim1.jpg" alt="">
+                            <div class="team-social">
+                                <a class="btn btn-square btn-light mx-1" href="javascript:void(0)"
+                                    onclick="copyEmail('lamis@gmail.com')">
+                                    <i class="bi bi-envelope-check-fill"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="text-center p-4">
+                            <h5 class="mb-1">Pr. Hakim Bendjenna </h5>
+                            <span><a href="team2.html" style="color: #8a91ac;">Distributed and Intelligent Systems</a>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="team-item">
+                        <div class="position-relative overflow-hidden">
+                            <img class="img-fluid w-100" src="img/kamel.jpg" alt="">
+                            <div class="team-social">
+                                <a class="btn btn-square btn-light mx-1" href="javascript:void(0)"
+                                    onclick="copyEmail('lamis@gmail.com')">
+                                    <i class="bi bi-envelope-check-fill"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="text-center p-4">
+                            <h5 class="mb-1">Pr. Kamel haouam </h5>
+                            <span><a href="team3.html" style="color: #8a91ac;">Analyse and Applied Mathematics</a>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
+                    <div class="team-item">
+                        <div class="position-relative overflow-hidden">
+                            <img class="img-fluid w-100" src="img/rebai.jpg" alt="">
+                            <div class="team-social">
+                                <a class="btn btn-square btn-light mx-1" href="javascript:void(0)"
+                                    onclick="copyEmail('lamis@gmail.com')">
+                                    <i class="bi bi-envelope-check-fill"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="text-center p-4">
+                            <h5 class="mb-1">Pr. Rebii Belgacem </h5>
+                            <span><a href="team4.html" style="color: #8a91ac;">Dynamic, elliptical and chaotic Systems
+                                </a></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Team End -->
+    <!-- Lab Presidents Timeline Start -->
+    <div class="container-fluid py-5">
+        <div class="container">
+            <div class="text-center mx-auto wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px;">
+                <h1 class="display-6 mb-4">Laboratory Directors</h1>
+                <p class="mb-4">Leadership through the years</p>
+            </div>
+
+
+            <div class="row">
+                <div class="col-12">
+                    <div class="timeline-container position-relative">
+                        <!-- Timeline Line -->
+                        <div class="timeline-line"></div>
+
+                        <!-- Current President -->
+                        <div class="row timeline-item wow fadeInUp" data-wow-delay="0.1s">
+                            <div class="col-md-6 pe-md-5 text-md-end">
+                                <div class="timeline-content">
+                                    <h4 class="mb-2">2018 - Present</h4>
+                                    <div class="d-flex align-items-center justify-content-end mb-3">
+                                        <h5 class="mb-0 me-3">Pr. Hakim Bendjenna</h5>
+                                        <img src="img/hakim1.jpg" class="rounded-circle"
+                                            style="width: 60px; height: 60px; object-fit: cover;">
+                                    </div>
+                                    <p class="text-muted">Leading LAMIS laboratory into new horizons of research
+                                        excellence and innovation in computer science and mathematics.</p>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="timeline-marker current"></div>
+                            </div>
+                        </div>
+
+                        <!-- Previous President -->
+                        <div class="row timeline-item wow fadeInUp" data-wow-delay="0.3s">
+                            <div class="col-md-6">
+                                <div class="timeline-marker"></div>
+                            </div>
+                            <div class="col-md-6 ps-md-5">
+                                <div class="timeline-content">
+                                    <h4 class="mb-2">2012 - 2018</h4>
+                                    <div class="d-flex align-items-center mb-3">
+                                        <img src="img/Mohamed-Laouar.png" class="rounded-circle me-3"
+                                            style="width: 60px; height: 60px; object-fit: cover;">
+                                        <h5 class="mb-0">Pr. Laouar Med Ridda</h5>
+                                    </div>
+                                    <p class="text-muted">Established strong foundations and guided the laboratory
+                                        through its formative years with visionary leadership.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <style>
+        .timeline-container {
+            padding: 40px 0;
+        }
+
+        .timeline-line {
+            position: absolute;
+            width: 2px;
+            height: 100%;
+            background: var(--primary);
+            left: 50%;
+            transform: translateX(-50%);
+            top: 0;
+        }
+
+        .timeline-marker {
+            width: 20px;
+            height: 20px;
+            border-radius: 50%;
+            border: 3px solid var(--primary);
+            background: white;
+            position: relative;
+            left: -9px;
+            margin: 20px 0;
+        }
+
+        .timeline-marker.current {
+            background: var(--primary);
+        }
+
+        .timeline-marker::before {
+            content: '';
+            width: 40px;
+            height: 2px;
+            background: var(--primary);
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+        }
+
+        .timeline-item:nth-child(odd) .timeline-marker::before {
+            left: 20px;
+        }
+
+        .timeline-item:nth-child(even) .timeline-marker::before {
+            right: 20px;
+        }
+
+        .timeline-content {
+            padding: 20px;
+            background: #f8f9fa;
+            border-radius: 8px;
+            box-shadow: 0 2px 15px rgba(0, 0, 0, 0.1);
+            margin: 10px 0;
+        }
+
+        @media (max-width: 767px) {
+            .timeline-line {
+                left: 20px;
+            }
+
+            .timeline-marker {
+                left: 11px;
+            }
+
+            .timeline-content {
+                margin-left: 50px;
+            }
+
+            .timeline-item:nth-child(odd) .timeline-content {
+                text-align: left !important;
+            }
+        }
+    </style>
+    <!-- Lab Presidents Timeline End -->
+
+
+    <!-- Footer Start -->
+    <div class="container-fluid footer position-relative bg-dark text-white-50 py-5 wow fadeIn" data-wow-delay="0.1s">
+        <div class="container">
+            <div class="row g-5 py-5">
+                <div class="col-lg-6 pe-lg-5">
+                    <a href="index.html" class="navbar-brand">
+                        <h1 class="h1 text-primary mb-0">LA<span class="text-white">MIS</span></h1>
+                    </a>
+                    <p class="fs-5 mb-4">We thrive on mutually beneficial partnerships, collaborations that drive
+                        innovations and new technologies.</p>
+                    <p><i class="fa fa-map-marker-alt me-2"></i>LAboratory of Mathematics, Informatics and Systems
+                        (LAMIS),
+                        Echahid Cheikh Larbi Tebessi university, Tebessa, 12002, Algeria
+                    </p>
+                    <p><i class="fa fa-phone-alt me-2"></i>(+213) 37 584 638</p>
+                    <p><i class="fa fa-envelope me-2"></i>labo.lamis@univ-tebessa.dz</p>
+                    <div class="d-flex mt-4">
+                        <a class="btn btn-lg-square btn-primary me-2" href="#"><i class="fab fa-twitter"></i></a>
+                        <a class="btn btn-lg-square btn-primary me-2" href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a class="btn btn-lg-square btn-primary me-2" href="#"><i class="fab fa-linkedin-in"></i></a>
+                        <a class="btn btn-lg-square btn-primary me-2" href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-6 ps-lg-5">
+                    <div class="row g-5">
+                        <div class="col-sm-6">
+                            <h4 class="text-light mb-4">Quick Links</h4>
+                            <a class="btn btn-link" href="about.html">About Us</a>
+                            <a class="btn btn-link" href="contact.html">Contact Us</a>
+
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer End -->
+
+
+    <!-- Copyright Start -->
+    <div class="container-fluid copyright bg-dark text-white-50 py-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 text-center text-md-start">
+                    <p class="mb-0">&copy; <a href="#">LAMIS</a>. All Rights Reserved.</p>
+                </div>
+                <div class="col-md-6 text-center text-md-end">
+                    <!--/*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support. ***/-->
+                    <p class="mb-0">Designed by <a href="https://htmlcodex.com">M.G</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Copyright End -->
+
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-lg btn-primary btn-lg-square rounded-circle back-to-top"><i
+            class="bi bi-arrow-up"></i></a>
+
+
+    <!-- JavaScript Libraries -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/counterup/counterup.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+    <script>
+        function copyEmail(emailp) {
+            // Define the email you want to copy
+            const email = emailp;
+
+            // Create a temporary input element to hold the email
+            const tempInput = document.createElement("input");
+            tempInput.value = email;
+
+            // Append the input to the body, copy the text, and remove the input
+            document.body.appendChild(tempInput);
+            tempInput.select();
+            tempInput.setSelectionRange(0, 99999); // For mobile devices
+            document.execCommand("copy");
+            document.body.removeChild(tempInput);
+
+            // Optional: Alert the user that the email has been copied
+            alert("Email copied to clipboard: ");
+        }
+    </script>
+</body>
+
+</html>
